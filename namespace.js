@@ -19,8 +19,8 @@ var SING0961 = {
 
         function clickMe(ev) {
 
-                this.style.backgroundColor = "#d131a3";
-                this.style.borderColor = "#bf0a0a";
+                this.style.backgroundColor = "#D8FF70";
+                this.style.borderColor = "#8CFFFD";
             }
 
         }
