@@ -12,17 +12,16 @@ var SING0961 = {
         div.addEventListener("click", clickMe);
         div.addEventListener("mouseover", hoverMe);
         div.addEventListener("mouseout", hoverMe);
-
-        function hoverMe(ev) {
+       }
+        
+    function hoverMe(ev) {
             this.classList.toggle("highlight");
         }
 
-        function clickMe(ev) {
+     function clickMe(ev) {
 
                 this.style.backgroundColor = "#D8FF70";
                 this.style.borderColor = "#8CFFFD";
             }
-
-        }
 
     }
